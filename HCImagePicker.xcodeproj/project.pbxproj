@@ -14,6 +14,15 @@
 		CD9CE6991AEF3D4500117B72 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD9CE6981AEF3D4500117B72 /* Images.xcassets */; };
 		CD9CE69C1AEF3D4500117B72 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD9CE69A1AEF3D4500117B72 /* LaunchScreen.xib */; };
 		CD9CE6A81AEF3D4500117B72 /* HCImagePickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9CE6A71AEF3D4500117B72 /* HCImagePickerTests.m */; };
+		CD9CE6C11AEF3DA100117B72 /* HCImagePickerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9CE6B41AEF3DA100117B72 /* HCImagePickerCollectionViewCell.m */; };
+		CD9CE6C21AEF3DA100117B72 /* HCImageGroupModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9CE6B71AEF3DA100117B72 /* HCImageGroupModel.m */; };
+		CD9CE6C31AEF3DA100117B72 /* HCImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9CE6B91AEF3DA100117B72 /* HCImageModel.m */; };
+		CD9CE6C41AEF3DA100117B72 /* HCImageAlbumsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9CE6BC1AEF3DA100117B72 /* HCImageAlbumsViewController.m */; };
+		CD9CE6C51AEF3DA100117B72 /* HCImagePreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9CE6BE1AEF3DA100117B72 /* HCImagePreviewViewController.m */; };
+		CD9CE6C61AEF3DA100117B72 /* HCMultiImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9CE6C01AEF3DA100117B72 /* HCMultiImagePickerController.m */; };
+		CD9CE6CB1AEF3E3A00117B72 /* AlbumCheckmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9CE6C81AEF3E3A00117B72 /* AlbumCheckmark@2x.png */; };
+		CD9CE6CC1AEF3E3A00117B72 /* HCCheckButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9CE6CA1AEF3E3A00117B72 /* HCCheckButton.m */; };
+		CD9CE6D01AEF3E4800117B72 /* HCNumberLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9CE6CF1AEF3E4800117B72 /* HCNumberLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +49,23 @@
 		CD9CE6A11AEF3D4500117B72 /* HCImagePickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HCImagePickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD9CE6A61AEF3D4500117B72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD9CE6A71AEF3D4500117B72 /* HCImagePickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCImagePickerTests.m; sourceTree = "<group>"; };
+		CD9CE6B31AEF3DA100117B72 /* HCImagePickerCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCImagePickerCollectionViewCell.h; sourceTree = "<group>"; };
+		CD9CE6B41AEF3DA100117B72 /* HCImagePickerCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCImagePickerCollectionViewCell.m; sourceTree = "<group>"; };
+		CD9CE6B61AEF3DA100117B72 /* HCImageGroupModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCImageGroupModel.h; sourceTree = "<group>"; };
+		CD9CE6B71AEF3DA100117B72 /* HCImageGroupModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCImageGroupModel.m; sourceTree = "<group>"; };
+		CD9CE6B81AEF3DA100117B72 /* HCImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCImageModel.h; sourceTree = "<group>"; };
+		CD9CE6B91AEF3DA100117B72 /* HCImageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCImageModel.m; sourceTree = "<group>"; };
+		CD9CE6BB1AEF3DA100117B72 /* HCImageAlbumsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCImageAlbumsViewController.h; sourceTree = "<group>"; };
+		CD9CE6BC1AEF3DA100117B72 /* HCImageAlbumsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCImageAlbumsViewController.m; sourceTree = "<group>"; };
+		CD9CE6BD1AEF3DA100117B72 /* HCImagePreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCImagePreviewViewController.h; sourceTree = "<group>"; };
+		CD9CE6BE1AEF3DA100117B72 /* HCImagePreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCImagePreviewViewController.m; sourceTree = "<group>"; };
+		CD9CE6BF1AEF3DA100117B72 /* HCMultiImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCMultiImagePickerController.h; sourceTree = "<group>"; };
+		CD9CE6C01AEF3DA100117B72 /* HCMultiImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCMultiImagePickerController.m; sourceTree = "<group>"; };
+		CD9CE6C81AEF3E3A00117B72 /* AlbumCheckmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AlbumCheckmark@2x.png"; sourceTree = "<group>"; };
+		CD9CE6C91AEF3E3A00117B72 /* HCCheckButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCCheckButton.h; sourceTree = "<group>"; };
+		CD9CE6CA1AEF3E3A00117B72 /* HCCheckButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCCheckButton.m; sourceTree = "<group>"; };
+		CD9CE6CE1AEF3E4800117B72 /* HCNumberLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCNumberLabel.h; sourceTree = "<group>"; };
+		CD9CE6CF1AEF3E4800117B72 /* HCNumberLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCNumberLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +107,9 @@
 		CD9CE68A1AEF3D4500117B72 /* HCImagePicker */ = {
 			isa = PBXGroup;
 			children = (
+				CD9CE6CD1AEF3E4800117B72 /* NumberLabel */,
+				CD9CE6C71AEF3E3A00117B72 /* CheckButton */,
+				CD9CE6B11AEF3DA100117B72 /* HCImagePicker */,
 				CD9CE68F1AEF3D4500117B72 /* AppDelegate.h */,
 				CD9CE6901AEF3D4500117B72 /* AppDelegate.m */,
 				CD9CE6921AEF3D4500117B72 /* ViewController.h */,
@@ -117,6 +146,68 @@
 				CD9CE6A61AEF3D4500117B72 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD9CE6B11AEF3DA100117B72 /* HCImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				CD9CE6B21AEF3DA100117B72 /* Cell */,
+				CD9CE6B51AEF3DA100117B72 /* model */,
+				CD9CE6BA1AEF3DA100117B72 /* viewController */,
+			);
+			path = HCImagePicker;
+			sourceTree = "<group>";
+		};
+		CD9CE6B21AEF3DA100117B72 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CD9CE6B31AEF3DA100117B72 /* HCImagePickerCollectionViewCell.h */,
+				CD9CE6B41AEF3DA100117B72 /* HCImagePickerCollectionViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CD9CE6B51AEF3DA100117B72 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				CD9CE6B61AEF3DA100117B72 /* HCImageGroupModel.h */,
+				CD9CE6B71AEF3DA100117B72 /* HCImageGroupModel.m */,
+				CD9CE6B81AEF3DA100117B72 /* HCImageModel.h */,
+				CD9CE6B91AEF3DA100117B72 /* HCImageModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		CD9CE6BA1AEF3DA100117B72 /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				CD9CE6BB1AEF3DA100117B72 /* HCImageAlbumsViewController.h */,
+				CD9CE6BC1AEF3DA100117B72 /* HCImageAlbumsViewController.m */,
+				CD9CE6BD1AEF3DA100117B72 /* HCImagePreviewViewController.h */,
+				CD9CE6BE1AEF3DA100117B72 /* HCImagePreviewViewController.m */,
+				CD9CE6BF1AEF3DA100117B72 /* HCMultiImagePickerController.h */,
+				CD9CE6C01AEF3DA100117B72 /* HCMultiImagePickerController.m */,
+			);
+			path = viewController;
+			sourceTree = "<group>";
+		};
+		CD9CE6C71AEF3E3A00117B72 /* CheckButton */ = {
+			isa = PBXGroup;
+			children = (
+				CD9CE6C81AEF3E3A00117B72 /* AlbumCheckmark@2x.png */,
+				CD9CE6C91AEF3E3A00117B72 /* HCCheckButton.h */,
+				CD9CE6CA1AEF3E3A00117B72 /* HCCheckButton.m */,
+			);
+			path = CheckButton;
+			sourceTree = "<group>";
+		};
+		CD9CE6CD1AEF3E4800117B72 /* NumberLabel */ = {
+			isa = PBXGroup;
+			children = (
+				CD9CE6CE1AEF3E4800117B72 /* HCNumberLabel.h */,
+				CD9CE6CF1AEF3E4800117B72 /* HCNumberLabel.m */,
+			);
+			path = NumberLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +290,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD9CE6CB1AEF3E3A00117B72 /* AlbumCheckmark@2x.png in Resources */,
 				CD9CE6971AEF3D4500117B72 /* Main.storyboard in Resources */,
 				CD9CE69C1AEF3D4500117B72 /* LaunchScreen.xib in Resources */,
 				CD9CE6991AEF3D4500117B72 /* Images.xcassets in Resources */,
@@ -219,8 +311,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD9CE6D01AEF3E4800117B72 /* HCNumberLabel.m in Sources */,
+				CD9CE6C61AEF3DA100117B72 /* HCMultiImagePickerController.m in Sources */,
+				CD9CE6C51AEF3DA100117B72 /* HCImagePreviewViewController.m in Sources */,
+				CD9CE6C21AEF3DA100117B72 /* HCImageGroupModel.m in Sources */,
 				CD9CE6941AEF3D4500117B72 /* ViewController.m in Sources */,
+				CD9CE6C41AEF3DA100117B72 /* HCImageAlbumsViewController.m in Sources */,
+				CD9CE6CC1AEF3E3A00117B72 /* HCCheckButton.m in Sources */,
+				CD9CE6C11AEF3DA100117B72 /* HCImagePickerCollectionViewCell.m in Sources */,
 				CD9CE6911AEF3D4500117B72 /* AppDelegate.m in Sources */,
+				CD9CE6C31AEF3DA100117B72 /* HCImageModel.m in Sources */,
 				CD9CE68E1AEF3D4500117B72 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

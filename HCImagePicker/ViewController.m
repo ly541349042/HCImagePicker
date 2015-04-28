@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "HCImageAlbumsViewController.h"
 
-@interface ViewController ()
+@interface ViewController () <HCImageAlbumsViewControllerProtocol>
+
+- (IBAction)PresentImagePicker:(id)sender;
 
 @end
 
@@ -17,6 +20,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+- (IBAction)PresentImagePicker:(id)sender
+{
+    HCImageAlbumsViewController *imgPicker = [[HCImageAlbumsViewController alloc] init];
+    imgPicker.delegate = self;
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:imgPicker];
+    
+    [self presentViewController:navController animated:YES completion:^{
+        
+    }];
+}
+
+-(void)imageAlbumsViewController:(HCImageAlbumsViewController *)imageAlbumsViewController didFinishPickingImage:(NSArray *)images
+{
+    NSLog(@"%@", images);
 }
 
 - (void)didReceiveMemoryWarning {
